@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 type ErrNegSqrt float64
 
@@ -13,7 +11,9 @@ func (e ErrNegSqrt) Error() string {
 }
 
 func Sqrt(x float64) (float64, error) {
-	if x < 0 {
+	fmt.Printf("Taking the square root of %v:\n", x)
+  if x < 0 {
+    
 		return x, ErrNegSqrt(x)
 	}
 	var z float64 = 1
