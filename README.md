@@ -16,7 +16,7 @@ riyan [at] linux.com
 
 ## Contents
 
-### Square Root function
+### 1. Square Root function
 Here, we create a program that calculates the square root of a number, to illustrate these concepts:
 - Flow Control
 - Error Handling
