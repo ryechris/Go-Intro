@@ -38,7 +38,6 @@ In so doing, we cover the following concepts:
 - Interface
 - Reader
 
-*(Note: If this one does not work in your machine, you can go [here]() to paste code onto.)
 
 ### 3.  Summing 0 to 9: Concurrency with Go
 Concurrency is built into Go; it is one of the reasons for choosing Go.
@@ -53,5 +52,23 @@ Here we do just that: we divide the sum into two threads; and by so doing we dem
 - Channels
 
 
-
 ### 4. Binary Trees
+Several binary trees can represent the same sequence of values.
+
+In other languages, functions to check whether two binary trees hold the same sequence can be complex.
+
+But with Go's concurrency features, we can make a simple solution.
+Go provides the [tree](https://cs.opensource.google/go/x/tour/+/v0.1.0:tree/tree.go) package, where it defines this struct:
+```
+type Tree struct { // binary tree with integer values
+    Left  *Tree
+    Value int
+    Right *Tree
+}
+```
+
+
+### 5. Web Crawler
+Here, we use Go's concurrency features to write a crawler that fetches URLs in parallel, without fetching the same URL twice.
+
+
