@@ -5,6 +5,10 @@ This repository houses some code I played with when learning Go.
 
 You can copy and paste the code into your machine,
 to see for yourself what they yield.
+To run sqrt.go, for example, you can run it with this command:
+```
+go run sqrt.go
+```
 
 (To do that, if you don't already have Go installed, you can go here: _____)
 
