@@ -24,7 +24,7 @@ git init
 git pull https://github.com/ryechris/Go-Intro.git
 ```
 
-5.Then, to run `01-sqrt.go`, for example, you can run it on your Terminal or Command Line with this command:
+5. Then, to run `01-sqrt.go`, for example, you can run it on your Terminal or Command Line with this command:
 ```
 go run 01-sqrt.go
 ```
