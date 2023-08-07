@@ -62,7 +62,7 @@ Concurrency is built into Go; it is one of the reasons many people choose Go.
 
 Summing the numbers -- such as 0,1,2,3,4,5,6,7,8,9 -- can illustrate how concurrency might be useful.
 We can instruct the computer to perform this addition in one sequence.
-However, with concurrency, we can divide the work into multiple threads, all runniing at the same time.
+However, with concurrency, we can divide the work into multiple threads, all running at the same time.
 So a thread does less work, and thus completes in less time. Hence higher efficiency.
 
 Here we do just that: we divide the sum into two threads; and by so doing we demonstrate the following constructions:
