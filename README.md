@@ -76,7 +76,7 @@ Several binary trees can represent the same sequence of values.
 In other languages, functions to check whether two binary trees hold the same sequence can be complex.
 
 But with Go's concurrency features, we can make a simple solution.
-Go provides the [tree](https://cs.opensource.google/go/x/tour/+/v0.1.0:tree/tree.go) package, where it defines this struct:
+Go provides the [tree](https://cs.opensource.google/go/x/tour/+/v0.1.0:tree/tree.go) package, where we can see what a tree looks like from its definition:
 ```
 type Tree struct { // binary tree with integer values
     Left  *Tree
