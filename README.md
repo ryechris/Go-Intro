@@ -1,7 +1,13 @@
 # Go-Intro
 Introduction to Go
 
-This repository houses some code I played with when learning Go.
+This repository houses some code I played with when learning Go:
+
+1. Square Root Calculator
+2. Reader Interface
+3. Addition Calculator
+4. Binary Trees Comparison function
+5. Web Crawler
 
 You can copy and paste the code into your machine,
 to see for yourself what they yield.
@@ -21,7 +27,7 @@ riyan [at] linux.com
 
 ## Contents
 
-### 1. Square Root function
+### 1. Square Root Calculator
 Here, we create a program that calculates the square root of a number, to illustrate these concepts:
 - Flow Control
 - Error Handling
@@ -70,5 +76,3 @@ type Tree struct { // binary tree with integer values
 
 ### 5. Web Crawler
 Here, we use Go's concurrency features to write a crawler that fetches URLs in parallel, without fetching the same URL twice.
-
-
