@@ -58,7 +58,7 @@ In so doing, we cover the following concepts:
 
 
 ### 3.  Summing 0 to 9: Concurrency with Go
-Concurrency is built into Go; it is one of the reasons for choosing Go.
+Concurrency is built into Go; it is one of the reasons many people choose Go.
 
 Summing the numbers -- such as 0,1,2,3,4,5,6,7,8,9 -- can illustrate how concurrency might be useful.
 We can instruct the computer to perform this addition in one sequence.
