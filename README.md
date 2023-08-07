@@ -9,14 +9,27 @@ This repository houses some code I played with when learning Go:
 4. Binary Trees Comparison function
 5. Web Crawler
 
-You can copy and paste the code into your machine,
-to see for yourself what they yield.
-To run `01-sqrt.go`, for example, you can run it with this command:
+You can `git pull` the code into your machine,
+to see for yourself what they yield:
+
+1. Open the Terminal or Command Line app.
+
+2. Create an empty folder in the location of your choice.
+
+3. Navigate to the empty folder
+
+4. Run the following code in that folder:
+```
+git init
+git pull https://github.com/ryechris/Go-Intro.git
+```
+
+5.Then, to run `01-sqrt.go`, for example, you can run it on your Terminal or Command Line with this command:
 ```
 go run 01-sqrt.go
 ```
 
-(To do that, if you don't already have Go installed, you can visit their [installation](https://go.dev/doc/install) page.)
+(*If you don't already have Go installed, you can visit their [installation](https://go.dev/doc/install) page.)
 
 The code are primarily answers to some problems on the tour given by the Go authors at go.dev.
 
