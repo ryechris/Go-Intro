@@ -128,7 +128,6 @@ var fetcher = fakeFetcher{
 		},
 	},
 }
-
 // so if it is in the string of map[string], it will be found.
-// But if it's in the []string list, it won't be foundd.
+// But if it's in the []string list, it won't be found.
 
