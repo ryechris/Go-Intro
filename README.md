@@ -94,9 +94,13 @@ type Tree struct { // binary tree with integer values
 
 ### 5. Web Crawler
 Here, we use Go's concurrency features to write a crawler that fetches URLs in parallel, without fetching the same URL twice.
+
 The Go authors gave us a pool of URLs, which they placed in a data structure they call Fetcher.
+
 We are to create a Crawler that crawls these URLs, checking if a particular URL exists.
+
 If it doesn't exist, the Crawler is to report so.
+
 If it does exists, the Crawler must report that it's been found, or that is was found before.
 
 However, we have a problem. We can efficiently keep track of whether a URL has been found with a map, but goroutines operating in the same memory space on one map may geenrate problems. 
