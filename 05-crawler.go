@@ -72,8 +72,10 @@ func (c *SafeTracker) Value(key string) bool {
 	// Lock so only one goroutine at a time can access the map c.v.
 
 	defer c.mu.Unlock()
-	// You want to unlock after this surrounding func returns.
-	return c.v[key]
+  // You want to unlock after this surrounding func returns,
+  // so we use defer.
+
+  return c.v[key]
 }
 
 func (c *SafeTracker) Setter(key string) {
