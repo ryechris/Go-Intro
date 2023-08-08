@@ -30,6 +30,10 @@ go run 01-sqrt.go
 ```
 
 (*If you don't already have Go installed, you can visit their [installation](https://go.dev/doc/install) page.)
+To check if you have Go installed, you can run this code on your Terminal:
+```
+go version
+```
 
 The code are primarily answers to some problems on the tour given by the Go authors at go.dev.
 
