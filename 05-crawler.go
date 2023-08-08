@@ -47,7 +47,7 @@ func Crawl(url string, depth int, fetcher Fetcher, c SafeTracker) {
 	for _, u := range urls {
 		go Crawl(u, depth-1, fetcher, c)
 	}
-	time.Sleep(time.Second * 2)
+	time.Sleep(time.Second)
 	return
 }
 
