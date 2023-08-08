@@ -35,7 +35,7 @@ To check if you have Go installed, you can run this code on your Terminal:
 go version
 ```
 
-The code are primarily answers to some problems on the tour given by the Go authors at go.dev.
+The code in this repository are primarily answers to some problems on the tour given by the Go authors at go.dev.
 
 For comments or inquiries, please contact:
 riyan [at] linux.com
