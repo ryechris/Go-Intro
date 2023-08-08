@@ -56,6 +56,8 @@ In its io package, Go provides the io.Reader interface.
 As an exercise, we create our own struct (named MyReader), and we turn it into a Reader. 
 This one imitates io.Reader, but emits an infinite stream of the character 'A'.
 
+If you feed the Terminal `go run 02-reader.go`, on a successful run the code will produce `OK!`.  
+
 In so doing, we cover the following concepts:
 - Interface
 - Reader
