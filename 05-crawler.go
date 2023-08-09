@@ -22,7 +22,7 @@ type SafeTracker struct {
 	v  map[string]bool
 }
 
-type Fetcher interface { 
+type Fetcher interface {
 	// Fetch returns the body of URL and
 	// a slice of URLs found on that page.
 	Fetch(url string, c SafeTracker) (body string, urls []string, err error)
@@ -72,10 +72,10 @@ func (c *SafeTracker) Value(key string) bool {
 	// Lock so only one goroutine at a time can access the map c.v.
 
 	defer c.mu.Unlock()
-  // You want to unlock after this surrounding func returns,
-  // so we use defer.
+	// You want to unlock after this surrounding func returns,
+	// so we use defer.
 
-  return c.v[key]
+	return c.v[key]
 }
 
 func (c *SafeTracker) Setter(key string) {
@@ -130,6 +130,6 @@ var fetcher = fakeFetcher{
 		},
 	},
 }
+
 // so if it is in the string of map[string], it will be found.
 // But if it's in the []string list, it won't be found.
-
