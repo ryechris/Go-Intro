@@ -1,5 +1,5 @@
 // author: Riyan Christy
-// riyan [at] linux.com
+// email: riyan [at] linux.com
 // source problem: https://go.dev/tour/concurrency/10
 // (the problematic code can also be found at that page)
 
