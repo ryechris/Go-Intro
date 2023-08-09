@@ -1,4 +1,4 @@
-# Go-Intro
+# Go: Intro
 Introduction to Go
 
 This repository houses some code I played with when learning Go:
