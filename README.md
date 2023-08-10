@@ -101,7 +101,7 @@ We are to create a Crawler that crawls these URLs, checking if a particular URL 
 
 If it doesn't exist, the Crawler is to report so.
 
-If it does exists, the Crawler must report that it's been found, or that is was found before.
+If it does exist, the Crawler must report that it's been found, or that is was found before.
 
 However, we have a problem. We can efficiently keep track of whether a URL has been found with a map, but goroutines operating in the same memory space on one map may geenrate problems. 
 
