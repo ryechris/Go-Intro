@@ -3,7 +3,7 @@ Introduction to Go
 
 This repository houses some code I played with when learning Go:
 
-1. [Square Root Calculator](###square-root-calculator)
+1. [Square Root Calculator](#square-root-calculator)
 2. Reader Interface
 3. Addition Calculator
 4. Binary Trees Comparison function
