@@ -32,11 +32,11 @@ func main() {
 	fmt.Println(Sqrt(-2)) // This yields an error, because it's a negative number.
 	fmt.Println("----------")
 
+  var i int // declare the var here, so it doesn't get redeclared in the for loop each time.
 	// User Input / Interactive Code
 	for true { // We place this in a loop, because we need an integer from the user, not string.
 
 		// This one handles the input
-		var i int // want to print in as a number
 		fmt.Print("\nEnter the number you want to take the square root of: ")
 		_, e := fmt.Scan(&i)
 
