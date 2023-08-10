@@ -1,7 +1,7 @@
 # Go: Intro
 Introduction to Go
 
-This repository houses some code I played with when learning Go:
+This repository houses some code I made with when learning Go:
 
 1. [Square Root Calculator](#1-square-root-calculator)
 2. [Reader Interface](#2--reader-a-go-library-interface)
