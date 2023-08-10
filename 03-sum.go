@@ -27,6 +27,6 @@ func main() {
 	go sum(s[len(s)/2:], c)
 
 	a, b := <-c, <-c // receive from the channel
-  fmt.Println("Summing 0, 1, 2, 3, 4, 5, 6, 7, 8, 9:")
+	fmt.Println("Summing 0, 1, 2, 3, 4, 5, 6, 7, 8, 9:")
 	fmt.Printf("a: %v, b: %v, a+b: %v \n", a, b, a+b)
 }
