@@ -1,11 +1,7 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
-	"strconv"
-	"strings"
 )
 
 type ErrNegSqrt float64
@@ -40,21 +36,16 @@ func main() {
 	for true { // We place this in a loop, because we need an integer from the user, not string.
 
 		// This one handles the input
+		var i int // want to print in as a number
 		fmt.Print("\nEnter the number you want to take the square root of: ")
-		reader := bufio.NewReader(os.Stdin)
-		in, err := reader.ReadString('\n')
-		in = strings.TrimSuffix(in, "\n")
-
-		// This one converts the integer in string form into an int.
-		i, err := strconv.Atoi(in)
+		_, e := fmt.Scan(&i)
 
 		// If the user did not input an integer, then the error != nil.
-		if err != nil {
-			fmt.Printf("%v is not an integer.\nPlease enter an integer (...,0,1,2,3,...).\n", in)
+		if e != nil {
+			fmt.Printf("%v is not an integer.\nPlease enter an integer (...,0,1,2,3,...).\n", i)
 		} else { // If the user inputted an integer, then we need to deliver the square root.
 			fmt.Println(Sqrt(float64(i)))
 			return
 		}
 	}
 }
-
