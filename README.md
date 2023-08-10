@@ -3,11 +3,11 @@ Introduction to Go
 
 This repository houses some code I played with when learning Go:
 
-1. [Square Root Calculator](#square-root-calculator)
-2. Reader Interface
-3. Addition Calculator
-4. Binary Trees Comparison function
-5. Web Crawler
+1. [Square Root Calculator](#1-square-root-calculator)
+2. [Reader Interface](#2--reader-a-go-library-interface)
+3. [Addition Calculator](#3--summing-0-to-9-concurrency-with-go)
+4. [Binary Trees Comparison function](#4-binary-trees)
+5. [Web Crawler](https://github.com/ryechris/Go-Intro#5-web-crawler)
 
 You can `git pull` the code into your machine,
 to see for yourself what they yield:
